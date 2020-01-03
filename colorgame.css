@@ -1,0 +1,74 @@
+body{
+	background-color:#232323;
+	margin:0;
+	font-family:"Montserrat";
+}
+
+.square{
+	width:30%;
+	background:#232323;
+	padding-bottom: 30%;
+	float:left;
+	margin:1.66%;
+	border-radius: 20%;
+	transition: background 0.5s;
+	/*for different browser support*/
+	-webkit-transition:background 0.5s;
+	-moz-transition:background 0.5s;
+}
+
+#container{
+	max-width: 600px;
+	margin: 20px auto;
+
+}
+h1{
+	color: white;
+	margin: 0 auto;
+	text-align:center;
+	background: steelblue;
+	font-weight:normal;
+	padding: 20px 0;
+}
+
+#stripe{
+	background:white;
+	height:30px;
+	text-align: center;
+	color: black;
+
+}
+
+#bar{
+	display:inline-block;
+	width:20%;
+}
+.selected{
+	background: steelblue;
+	color:white;
+}
+
+#toGuess{
+	font-size: 200%;
+}
+
+button{
+	font-family: "Montserrat";
+	border:none;
+	background:none;
+	text-transform: uppercase;
+	height:100%;
+	font-weight:700;
+	color: steelblue;
+	font-size:inherit;
+	transition: all 0.3s;
+	outline:none;
+	/*for different browser support*/
+	-webkit-transition:background 0.3s;
+	-moz-transition:background 0.3s;
+}
+
+button:hover{
+	color:white;
+	background:steelblue;
+}
